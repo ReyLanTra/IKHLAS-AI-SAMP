@@ -1,0 +1,6 @@
+{
+  "name": "IKHLAS AI SAMP",
+  "description": "Dashboard and knowledge base for the IKHLAS AI SAMP Discord bot, specialized in GTA San Andreas Multiplayer (SAMP) scripting and roleplay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

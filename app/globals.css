@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "tw-animate-css";
+
+@layer base {
+  /* Nonaktifkan pemilihan teks & drag-to-refresh */
+  html, body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    overscroll-behavior-y: contain; /* Nonaktifkan drag to refresh */
+  }
+
+  /* Nonaktifkan menu tahan lama (touch-callout) pada link, gambar, dan video */
+  img, video, a {
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Nonaktifkan drag bawaan browser untuk gambar dan video */
+  img, video {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+  }
+}
